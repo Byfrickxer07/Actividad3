@@ -42,3 +42,7 @@ Totalmente responsive
 Accesibilidad mejorada
 Rendimiento optimizado
 Experiencia de usuario fluida con transiciones y animaciones
+
+
+
+Para abrir el proyecto, descarga los archivos de este repositorio, y los pones en una carpeta, luego abris esa carpeta en vscode y instalas la extencion live server y en la parte inferior derecha te aparecera una opcion nueva y al hacer click se abrira el navegador predeterminado
