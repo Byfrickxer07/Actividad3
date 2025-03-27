@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+       
+    </style>
+</head>
+<body>
+    <div class="theme-toggle-container">
+        <button class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+            <span class="theme-toggle-icon">🌓</span>
+        </button>
+        
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_w3mL7wND95u_aOqQFgUiYqLnNewqo6nOA&s" alt="Imagen 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-VJ_G3tX08lSwCYJWpk6zJoKLLnZe-siIFw&s" alt="Imagen 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyj8Pkia8tcgH4MwPhymc6bHV0R9YufrzBOQ&s" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-btn btn-prev">‹</button>
+        <button class="carousel-btn btn-next">›</button>
+        <div class="carousel-indicators">
+            <div class="carousel-indicator active"></div>
+            <div class="carousel-indicator"></div>
+            <div class="carousel-indicator"></div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <img src="" alt="Imagen ampliada">
+        </div>
+    </div>
+
+    <br><br>
+    
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3RQQmkQEvNCY4prGKE6oc5?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
